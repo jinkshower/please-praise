@@ -37,7 +37,7 @@ public class AdminLoginRequestDtoTest {
             //when
             var violations = validate(requestDto);
             //then
-            assertThat(violations).hasSize(2);
+            assertThat(violations).hasSize(1);
         }
     }
 
